@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="root">
-        <h1>{{greeting}}</h1>
+        <h1 @click="changeColor">{{greeting}}</h1>
         <img v-bind:src="img" :alt="altImg">
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
